@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    font-family: Roboto;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(https://artfiles.alphacoders.com/109/109399.jpg);
+}
+
+header {
+    background-color: rgba(240, 248, 255, 0.063);
+    backdrop-filter: blur(4px);
+    border-bottom: 2px solid #fff;
+}
+
+.header__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    /* border: 1px solid #000; */
+    width: 1100px;
+    height: 60px;
+}
+.header__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+.logo {
+    width: 45px;
+}
+
+.logo__text {
+    margin-top: -14px;
+    font-size: 13px;
+    text-shadow: 0 0 3px #000;
+}
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid #000; */
+    width: 280px;
+    
+}
+.header__item {
+}
+
+.header__item a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.header__item a:hover{
+    color: #e8e8e8;
+}
+
+.box__form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px auto;
+    width: 400px;
+    height: 430px;
+    backdrop-filter: blur(10px);
+    background-color: #ffffff29;
+    color: #0a0a29;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 0 20px #00000067;
+}
+.box__form-cont1 {
+    /* border: 1px solid #000; */
+}
+.box__form-exite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    color: #ffffffbd;
+    width: 45px;
+    height: 45px;
+    background-color: #0a0a29;
+    position: relative;
+    left: 178px;
+}
+.box__form-exite:hover{
+    cursor: pointer;
+    color: #ffffffde;
+}
+.box__form-cont2 {
+    font-size: 25px;
+    /* border: 1px solid #000; */
+}
+.box__form-text {
+}
+.box__form-cont3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 180px;
+    width: 370px;
+    /* border: 1px solid #000; */
+}
+.input__cont-form {
+    /* border: 1px solid #000; */
+    margin-bottom: 30px;
+}
+.input__cont-form input{
+    background-color: #00000000;
+    border-bottom: 2px solid #0a0a29;
+    border-radius: 2px;
+    width: 310px;
+    padding: 5px;
+}
+
+.input__cont-form input:focus{
+    border-bottom: 2.3px solid #0a0a29;
+    border-radius: 2.5px;
+}
+
+.check__form-cont {
+    margin-top: -20px;
+}
+.button__form-box {
+}
+.footer__box-text {
+    /* border: 1px solid #000; */
+    height: 60px;
+}
+
+.labeles__form{
+    display: flex;
+    justify-content: space-between;
+    width: 310px;
+    /* border: 1px solid #000; */
+}
+.button__form {
+    /* margin-top: 10px; */
+    font-family: Montserrat;
+    font-weight: 700;
+    background-color: #0a0a2900;
+    border: 2.18px solid #0a0a29;
+    padding: 13px 60px;
+    border-radius: 7px;
+}
+.button__form:hover{
+    background-color: #0a0a2909;
+    cursor: pointer;
+}
+.labeles__form i{
+    /* border: 1px solid #000; */
+}
+
+.foto__cont {
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid #32e0ff; */
+    height: 500px;
+}
+.foto1 {
+    border: 9px solid #1c1c1c7c;
+    width: 500px;
+    height: 250px;
+    background-position-y: -20px;
+    background-image: url(https://img4.goodfon.com/wallpaper/nbig/9/b6/firewatc-pozharnyi-dozor-campo-santo-forest-les-art-art.jpg);
+    background-size: 90%;
+    position: relative;
+    right: -240px;
+    bottom: -20px;
+}
+.foto2 {
+    border: 9px solid #1c1c1c7c;
+    width: 300px;
+    height: 500px;
+    background-position-y: -50px;
+    background-position-x: -100px;
+    background-image: url(https://oir.mobi/uploads/posts/2022-08/1661289075_2-oir-mobi-p-priroda-art-minimalizm-oboi-3.jpg);
+    background-size: 400%;
+}
+.foto3 {
+    border: 9px solid #1c1c1c7c;
+    width: 500px;
+    height: 250px;
+    background-position-y: -20px;
+    background-image: url(https://zastavok.net/main/graphics/158531094190.jpg);
+    background-size: 90%; 
+    position: relative;
+    left: -180px;
+    bottom: -300px;
+}
+.main__text {
+    margin-top: 100px;
+    color: #e5fcfe;
+    font-size: 20px;
+    padding: 30px;
+    background-color: #00000070;
+    color: #d5edff;
+}
+.music__box {
+    display: flex;
+    position: fixed;
+    bottom: 300px;
+    left: -50px;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: #3b3b3bdc;
+    transition: 1s;
+    z-index: 2;
+    overflow: hidden;
+}
+
+audio {
+    position: relative;
+    left: 100px;
+    bottom: -20px;
+}
+
+i {
+    bottom: -40px;
+    left: 54px;
+    position: relative;
+    font-size: 20px;
+    color: #fff;
+}
+.music__box:hover {
+    width: 500px;
+}
+/* .labeles__form {
+    margin-bottom: -10px;
+}
+
+input:focus .labeles__form {
+    margin-bottom: 0px;
+} */
+
+.text__conts {
+    display: flex;
+    margin-bottom: -90px;
+}
+.text_cont:nth-child(1) {
+    background-color: #0a0a29;
+}
+.text_cont:nth-child(2){
+    margin-left: 20px;
+    background-color: #0a0a29;
+}
+
